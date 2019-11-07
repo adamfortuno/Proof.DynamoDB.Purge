@@ -1,0 +1,1 @@
+aws dynamodb batch-write-item --request-items file://insert_bulk.json --region "us-west-2" --profile "development"
